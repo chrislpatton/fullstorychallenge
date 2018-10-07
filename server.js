@@ -3,6 +3,7 @@ const fileUpload = require('express-fileupload');
 const createIssue = require('github-create-issue');
 const app = express();
 
+let port = process.env.PORT || 8080; 
 app.use('/form', express.static(__dirname + '/public/index.html'));
 
 // default options
@@ -78,6 +79,6 @@ app.post('/upload', function(req, res) {
   });
 });
 
-app.listen(8000, function() {
+app.listen(port, function() {
   console.log('Express server listening on port 8000'); // eslint-disable-line
 });
