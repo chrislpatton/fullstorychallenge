@@ -61,7 +61,7 @@ app.post('/upload', function(req, res) {
           opts.body = releventData;
           let title = "Error on " + theData[i].EventType + " event found on " +  theData[i].PageUrl + ".";
         
-          createIssue( '/chrislpatton/DemoStore4FS', title, opts, clbk );
+          createIssue( 'chrislpatton/DemoStore4FS', title, opts, clbk );
       }
   }
 
