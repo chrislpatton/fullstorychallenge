@@ -5,6 +5,8 @@ This application uses the data export json file from the FullStory dashboard. Wh
 
 A live version of this application can be found here: https://sleepy-ridge-91466.herokuapp.com/upload
 
+The issues that this application writes to is at the folowing url. https://github.com/chrislpatton/DemoStore4FS/issues
+
 To install clone the repo.
 
 Run npm install.
