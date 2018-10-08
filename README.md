@@ -13,4 +13,4 @@ Run node serve.js
 
 Open local host and upload a json file.
 
-Specifically use one of the json files found in the uploads folder of the repo.
+Specifically use the DataExport (1).json found in the uploads folder of this repo.

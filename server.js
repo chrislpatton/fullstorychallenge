@@ -3,7 +3,7 @@ const fileUpload = require('express-fileupload');
 const createIssue = require('github-create-issue');
 const app = express();
 
-let port = process.env.PORT || 8080; 
+let port = process.env.PORT || 8000; 
 app.use('/form', express.static(__dirname + '/public/index.html'));
 
 // default options
@@ -23,6 +23,8 @@ function clbk( error, issue, info ) {
     // returns <issue_data>
 }
 
+
+
 app.post('/upload', function(req, res) {
   let sampleFile;
   let uploadPath;
@@ -33,7 +35,7 @@ app.post('/upload', function(req, res) {
   }
 
   var opts = {
-    'token': 'd5afc8f8d07bd7add54b9a11ea0157acf7259c88',
+    'token': '1a6f5f447ebfd5fdf27260662ef6f3270c99c4ba',
     'useragent': 'FullStory',
     'body': ''
 };
@@ -80,5 +82,5 @@ app.post('/upload', function(req, res) {
 });
 
 app.listen(port, function() {
-  console.log('Express server listening on port 8000'); // eslint-disable-line
+  console.log('Express server listening on port ' + port); // eslint-disable-line
 });
