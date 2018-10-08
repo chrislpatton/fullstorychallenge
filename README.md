@@ -7,7 +7,9 @@ To install clone the repo.
 
 Run npm install.
 
-Run node serve.js
+In server.js file replace the token with this token "7a1625e231afdb5ea2909585d3196d0719290c89" and save.
+
+Run node server.js
 
 Open local host and upload a json file.
 
