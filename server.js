@@ -35,7 +35,7 @@ app.post('/upload', function(req, res) {
   }
 
   var opts = {
-    'token': '7a1625e231afdb5ea2909585d3196d0719290c89',
+    'token': '75db0ee5352c86d405272b03621db8085dc1c4d7',
     'useragent': 'FullStory',
     'body': ''
 };

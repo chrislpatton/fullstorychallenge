@@ -3,11 +3,13 @@ The objective of this challenge was to use FullStory and github api's to create 
 
 This application uses the data export json file from the FullStory dashboard. When uploaded the program will search to see if the import has any errors reported. If there are errors it creates an issue in github for the project.
 
+A live version of this application can be found here: https://sleepy-ridge-91466.herokuapp.com/upload
+
 To install clone the repo.
 
 Run npm install.
 
-In server.js file replace the token with this token "7a1625e231afdb5ea2909585d3196d0719290c89" and save.
+In server.js file replace the token with a token, please contact me for token
 
 Run node server.js
 
